@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mino compress demo</title>
+  <style>
+    body {
+        background-color: whitesmoke;
+        color: midnightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mino Compress Demo</h1>
+  <p>
+    Compress (small) image: <input type="file" id="uploadImage" accept="image/*" />
+  </p>
+  <div id="compressOutput" style="display:none">
+    <p>
+      Original:<br />
+      <canvas id="source"></canvas>
+    </p>
+    <p>
+      Compressed:<br />
+      <canvas id="compressResult"></canvas><br />
+      <a id="download" href="#" download="test.mino">Download compressed file</a>
+    </p>
+    <p>
+      Compression labyrinth:<br />
+      <canvas id="visualisation"></canvas>
+    </p>
+  </div>
+  <hr />
+  <p>
+    Decompress image: <input type="file" id="uploadMino" accept="*.mino" />
+  </p>
+  <div id="decompressOutput" style="display:none">
+    <p>
+      Decompressed:<br />
+      <canvas id="decompressResult"></canvas>
+    </p>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
