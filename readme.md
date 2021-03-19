@@ -2,11 +2,6 @@
 
 An experimental image format. 
 
-## Concept
-
-![Source](./assets/house.png)
-![Source](./assets/labyrinth.png)
-
 ## Demo
 
 Try out the [Demo](https://dplate.github.io/mino).
@@ -14,6 +9,11 @@ Try out the [Demo](https://dplate.github.io/mino).
 It shows the original image, the compressed (by decompressing it again) and an visualisation of the steps (colored lines) and anchors (red dots).
 
 It also offers a download link to the compressed file, which can be later decompressed again on the same demo page.
+
+## Concept
+
+![Source](./assets/house.png)
+![Source](./assets/labyrinth.png)
 
 ### Main idea
 
