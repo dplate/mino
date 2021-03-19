@@ -1,6 +1,6 @@
 # Mino Image Compressor
 
-An experimental image format by Dirk Plate. 
+An experimental image format. 
 
 ## Concept
 
